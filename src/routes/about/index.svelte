@@ -42,8 +42,8 @@
 
 <style>
 	main {
-		width: 100%;
-		height: 100%;
+		flex: 1;
+		padding: 2rem;
 		display: flex;
 		flex-flow: column;
 		align-items: center;

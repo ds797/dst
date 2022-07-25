@@ -12,6 +12,7 @@
 	main {
 		width: 100%;
 		padding: 1rem;
+		background: var(--neutral-low);
 		box-sizing: border-box;
 	}
 

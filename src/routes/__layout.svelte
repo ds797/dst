@@ -33,8 +33,11 @@
 	}
 
 	div {
-		position: relative;
 		flex: 1;
+		display: flex;
+		flex-flow: column;
+		justify-content: stretch;
+		align-items: stretch;
 		overflow: scroll;
 	}
 </style>
