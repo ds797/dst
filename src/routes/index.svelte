@@ -15,9 +15,9 @@
 
 <style>
 	main {
-		width: 100%;
-		height: 100%;
+		flex: 1;
 		display: flex;
+		flex-flow: column;
 		justify-content: center;
 		align-items: center;
 	}

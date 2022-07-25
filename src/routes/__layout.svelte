@@ -27,7 +27,7 @@
 		height: 100%;
 		display: flex;
 		flex-flow: column;
-		justify-content: center;
+		justify-content: stretch;
 		align-items: stretch;
 		background: var(--neutral);
 	}

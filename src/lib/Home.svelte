@@ -12,7 +12,7 @@
 	let hover = false;
 </script>
 
-<main>
+<main class="jamal">
 	<a href="/about">
 		<h1 on:mouseenter={() => hover = true} on:mouseleave={() => hover = false}>
 			Welcome to <Name />
