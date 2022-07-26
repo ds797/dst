@@ -34,10 +34,7 @@
 
 	div {
 		flex: 1;
-		display: flex;
-		flex-flow: column;
-		justify-content: stretch;
-		align-items: stretch;
+		position: relative;
 		overflow: scroll;
 	}
 </style>
