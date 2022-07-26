@@ -1,3 +1,8 @@
+<svelte:head>
+	<title>404</title>
+	<meta name="description" content="Page not found" />
+</svelte:head>
+
 <main>
 	<h1>404</h1>
 	<h3>Whoops! Here's <a href='/'>home</a> for a fresh start.</h3>

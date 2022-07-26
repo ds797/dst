@@ -12,7 +12,12 @@
 	let hover = false;
 </script>
 
-<main class="jamal">
+<svelte:head>
+	<title>Home</title>
+	<meta name="description" content="Learn more about dst" />
+</svelte:head>
+
+<main>
 	<a href="/about">
 		<h1 on:mouseenter={() => hover = true} on:mouseleave={() => hover = false}>
 			Welcome to <Name />
