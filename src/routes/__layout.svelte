@@ -11,7 +11,7 @@
 	export let key;
 </script>
 
-<main>
+<main class='flex'>
 	<Nav />
 	<div>
 		<Transition {key}>
@@ -25,10 +25,6 @@
 	main {
 		width: 100%;
 		height: 100%;
-		display: flex;
-		flex-flow: column;
-		justify-content: stretch;
-		align-items: stretch;
 		background: var(--neutral);
 	}
 

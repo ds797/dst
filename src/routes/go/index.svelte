@@ -2,9 +2,8 @@
 	import { browser, dev } from '$app/env';
 	import Name from '$lib/Name.svelte';
 	import Card from '$lib/Card.svelte';
-	import Users from '$lib/svg/Users.svelte';
-	import Pencil from '$lib/svg/Pencil.svelte';
-	import Lightbulb from '$lib/svg/Lightbulb.svelte';
+	import Dollar from '$lib/svg/Dollar.svelte';
+	import Mail from '$lib/svg/Mail.svelte';
 
 	// we don't need any JS on this page, though we'll load
 	// it in dev so that we get hot module replacement...
@@ -25,20 +24,17 @@
 </svelte:head>
 
 <main>
-	<h1>About <Name /></h1>
-	<h3><Name /> private tutoring is based in Marin County, California, specializing in mathematics and computer science.</h3>
+	<h1>Let's get started</h1>
+	<h3>To schedule sessions, email <a href="mailto:ds.blue797@gmail.com">ds.blue797@gmail.com</a></h3>
 	<div>
-		<Card title='Individually focused' body='One-on-one learning helps students receive the complete attention they deserve.'>
-			<Users />
+		<Card title='Pricing' body='Tutoring starts at $25 per session. Want more? Commissions accepted.'>
+			<Dollar />
 		</Card>
-		<Card title='Written work' body='Students show their work when solving problems, rooting strategies into their minds.'>
-			<Pencil />
-		</Card>
-		<Card title='Tips and tricks' body='Techniques learned through years of experience help accelerate students{'\''} progress.'>
-			<Lightbulb />
+		<Card title='Contacting' body='Before sending, make sure your email includes your general location and desired sessions per week.'>
+			<Mail />
 		</Card>
 	</div>
-	<h3><a href="/go">Ready?</a></h3>
+	<h3>Want to learn more about the creator of <Name />? Visit <a target="_blank" href="https://797.pages.dev">ds797's home page</a>.</h3>
 </main>
 
 <style>
