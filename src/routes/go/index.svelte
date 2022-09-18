@@ -17,7 +17,7 @@
 
 <main>
 	<h1>Let's get started</h1>
-	<h3>To schedule sessions, email <a href="mailto:ds.blue797@gmail.com">ds.blue797@gmail.com</a></h3>
+	<h3>To schedule sessions, email <a href="mailto:ds797@duck.com">ds797@duck.com</a></h3>
 	<div>
 		<Card title='Pricing' body='Tutoring starts at $25 per session.'>
 			<Dollar />
