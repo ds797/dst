@@ -31,6 +31,6 @@
 	div {
 		flex: 1;
 		position: relative;
-		overflow: scroll;
+		overflow: auto;
 	}
 </style>
